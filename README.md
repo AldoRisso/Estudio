@@ -31,3 +31,8 @@ y despues de eso ya se puede empujar los cambios
 
 Retroceder al ultimo commit ingresado, en el caso que no funcione o no quiera lo que estaba haciendo o el codigo dejo de funcionar
 git reset --hard
+
+si se quiere cambiar un solo arcvhivo
+git checkout HEAD --nombre del archivo
+
+git log historial de cosas que se han echo commits
