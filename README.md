@@ -13,4 +13,13 @@ git branch NombreDelBranch
 git checkout "NombreDelBranch"
 git push origin NombreDelBranch
 
-*********************
+----------- 
+
+Para devolverme al main y crear un nuevo branch
+
+git checkout main
+git checkout -B NombreBranch ---> este comando te crea el branch y te mueve al tiro a la posicion del branch
+
+documentacion de segundoBranch 
+
+------------
