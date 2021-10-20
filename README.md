@@ -35,4 +35,19 @@ git reset --hard
 si se quiere cambiar un solo arcvhivo
 git checkout HEAD --nombre del archivo
 
-git log historial de cosas que se han echo commits
+git log --->historial de cosas que se han echo commits
+git log --oneline
+git log --oneline --graph
+
+si me quiero mover a un commit en particular, ingreso git log --onleine copio el codigo del commit al que quuiero ir y escvribo
+git checkout CodigoGitLog
+
+en este caso se copia lo que se andaba buscando y se vuelve al main para agregar lo que se fue a buscar
+git checkout main
+
+para regresar un commit atras
+git reset --hard HEAD~1 o git checkout --hard HEAD~1
+git pull origin main
+
+
+
