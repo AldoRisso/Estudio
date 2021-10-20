@@ -9,3 +9,8 @@ git pull origin main me movia a mi ultimo commit
 git commit -am "mensaje>" guardar la info en manera local
 git push origin main todos los xcommit los empuja al servidor
 
+git branch NombreDelBranch
+git checkout "NombreDelBranch"
+git push origin NombreDelBranch
+
+*********************
