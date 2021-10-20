@@ -13,6 +13,7 @@ git branch NombreDelBranch
 git checkout "NombreDelBranch"
 git push origin NombreDelBranch
 
+*********************
 ----------- 
 
 Para devolverme al main y crear un nuevo branch
@@ -23,3 +24,10 @@ git checkout -B NombreBranch ---> este comando te crea el branch y te mueve al t
 documentacion de segundoBranch 
 
 ------------
+
+cuando se crean conflictos, se solucionan en vcode y se ingresa el comando
+git commit -am "se resolvio el conflicto"
+y despues de eso ya se puede empujar los cambios
+
+Retroceder al ultimo commit ingresado, en el caso que no funcione o no quiera lo que estaba haciendo o el codigo dejo de funcionar
+git reset --hard
