@@ -49,5 +49,17 @@ para regresar un commit atras
 git reset --hard HEAD~1 o git checkout --hard HEAD~1
 git pull origin main
 
+cuando ya tengo el codigo y lo quiero subir a produccion release (liberar el codigo)
+hay que ir al github e ingresar al apartado release
+create new release -> este release de que branch lo vas a sacar (main version final)
+en nombre se pone la version del release
+
+en github tb se pueden crear issue para notificar al equipo algun error o comentario que hay que revisar
+
+issue -> new issue cuando se toma la decicion delq ue el issue es un issue se crea un new branch para trabajar en el 
+git checkout -B NombredelIssue 
+
+se arregla el issue y se guardan los cambios
+
 
 
